@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode8.2
+xcode_project: iOSSwiftStarterPack.xcworkspace
+xcode_scheme: iOSSwiftStarterPack
+xcode_sdk: iphonesimulator10.0
+script:
+    - xcodebuild clean build -sdk iphonesimulator -workspace iOSSwiftStarterPack.xcworkspace -scheme iOSSwiftStarterPack CODE_SIGNING_REQUIRED=NO
