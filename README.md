@@ -10,7 +10,7 @@ This will prompt you for a name for the iOS project and automatically rename the
 
 
 ## Starterpack:
-This starterpack is a blank Swift iOS project with **SwiftLint**, **Travis CI**, and **CocoaPods** alread configured. Included are CocoaPods for:
+This starterpack is a blank Swift iOS project with [**SwiftLint**](https://github.com/realm/SwiftLint), [**Travis CI**](https://travis-ci.org/), and [**CocoaPods**](https://cocoapods.org/) alread configured. Included are CocoaPods for:
 - [Material](https://github.com/CosmicMind/Material)
 - [SwiftLint](https://github.com/realm/SwiftLint)
 - [AlamoFire](https://github.com/Alamofire/Alamofire)
