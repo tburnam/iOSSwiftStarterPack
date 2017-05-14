@@ -4,4 +4,4 @@ xcode_project: iOSSwiftStarterPack.xcworkspace
 xcode_scheme: iOSSwiftStarterPack
 xcode_sdk: iphonesimulator10.0
 script:
-    - xcodebuild -scheme iOSSwiftStarterPack CODE_SIGNING_REQUIRED=NO -workspace iOSSwiftStarterPack.xcworkspace -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7" build test
+    - xcodebuild -scheme iOSSwiftStarterPack CODE_SIGNING_REQUIRED=NO -workspace iOSSwiftStarterPack.xcworkspace -destination "platform=iOS Simulator,name=iPhone 7" build test
