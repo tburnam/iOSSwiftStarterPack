@@ -1,98 +1,13 @@
-disabled_rules:
-- empty_count
-- redundant_optional_initialization
-- trailing_semicolon
-- statement_position
-- type_name
-- unused_enumerated
-- todo
-- explicit_type_interface
-- legacy_constant
-- force_cast
-- nimble_operator
-- unused_closure_parameter
-- number_separator
-- comma
-- sorted_imports
-- implicit_getter
-- legacy_cggeometry_functions
-- force_unwrapping
-- leading_whitespace
-- cyclomatic_complexity
-- control_statement
-- function_body_length
-- empty_parentheses_with_trailing_closure
-- dynamic_inline
-- type_body_length
-- unused_optional_binding
-- operator_whitespace
-- closure_spacing
-- prohibited_super_call
-- object_literal
-- valid_docs
-- vertical_whitespace
-- redundant_void_return
-- large_tuple
-- trailing_whitespace
-- mark
-- empty_parameters
-- legacy_nsgeometry_functions
-- implicitly_unwrapped_optional
-- closing_brace
-- notification_center_detachment
-- class_delegate_protocol
-- colon
-- shorthand_operator
-- closure_parameter_position
-- nesting
-- switch_case_on_newline
-- file_header
-- conditional_returns_on_newline
-- trailing_newline
-- missing_docs
-- for_where
-- redundant_nil_coalescing
-- private_unit_test
-- compiler_protocol_init
-- return_arrow_whitespace
-- operator_usage_whitespace
-- attributes
-- overridden_super_call
-- fatal_error_message
-- vertical_parameter_alignment
-- first_where
-- private_outlet
-- generic_type_name
-- explicit_init
-- legacy_constructor
-- discarded_notification_center_observer
-- closure_end_indentation
-- identifier_name
-- custom_rules
-- function_parameter_count
-- syntactic_sugar
-- trailing_comma
-- void_return
-- valid_ibinspectable
-- opening_brace
-- line_length
-- redundant_discardable_let
-- weak_delegate
-- force_try
-- redundant_string_enum_value
-- file_length
-
-
-opt_in_rules:
-  # enter opt_in_rules here
-
-line_length:
-  error: 150
-  warning: 120
-
-file_length:
-  warning: 300
-  error: 400
+disabled_rules: # rule identifiers to exclude from running, see all rules here: https://github.com/realm/SwiftLint
+  - file_length
+  - force_cast
+  - function_body_length
+  - line_length
+  - todo
+  - type_body_length
+  - variable_name
+  - type_name
+  - function_parameter_count
 
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
