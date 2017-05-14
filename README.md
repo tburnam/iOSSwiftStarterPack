@@ -17,7 +17,7 @@ This starterpack is a blank Swift iOS project with **SwiftLint**, **Travis CI**,
 
 
 ## Resources:
-[IBM Browser sandbox](https://swift.sandbox.bluemix.net/restricted?error=cookie#/repl)
-[AwesomeSwift](https://github.com/matteocrippa/awesome-swift)
-[AwesomeSwift 2](https://github.com/Wolg/awesome-swift)
-[SwiftResources](https://github.com/jamessugrue/swift-resources)
+- [IBM Browser sandbox](https://swift.sandbox.bluemix.net/restricted?error=cookie#/repl)
+- [AwesomeSwift](https://github.com/matteocrippa/awesome-swift)
+- [AwesomeSwift 2](https://github.com/Wolg/awesome-swift)
+- [SwiftResources](https://github.com/jamessugrue/swift-resources)
