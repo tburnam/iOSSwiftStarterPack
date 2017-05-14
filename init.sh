@@ -1,88 +1,8 @@
 #!/bin/sh
  
-################################################################################
-#
-#      cloneXcodeProject.sh
-#
-# morphed from the original renameXcodeProject.sh by Monte Ohrt (see below)
-# by Rudi Farkas <rudi.farkas@gmail.com>
-# version : 1.01
-# date : 22 Jul 2011
-#
-# purpose : copy and rename an XCode project
-#
-# features (over and above those of renameXcodeProject.sh) :
-#
-# 1- makes the copied files writable before attempting to modify their content
-#
-# 2- works even if the new project name contains the old project name, for instance
-#     cloneXcodeProject.sh "MyStuff" "MyStuff2"
-#
-# installation :
-#
-# copy this file to a directory in your PATH, and make it executable with :
-#
-#   chmod +x cloneXcodeProject.sh
-#
-# usage :
-#
-#   cloneXcodeProject.sh <OldProjectName> <NewProjectName>
-#
-# example :
-#
-#   cloneXcodeProject.sh MyStuff MyNewStuff
-#
-# use at your own risk
-# let me know if something does not work as advertized
-#
-################################################################################
- 
-################################################################################
-#
-# renameXcodeProject.sh
-#
-# author: Monte Ohrt <monte@ohrt.com>
-# date: Jan 27, 2009
-# version: 1.0
-# http://www.phpinsider.com/xcode/renameXcodeProject.sh.txt
-#
-# This script will copy an xcode project to a new project directory name
-# and replace/rename all files within to work as expected under the new name.
-# Project names that contain characters other than alpha-numeric, spaces or
-# underscores MAY not work properly with this script. Use at your own risk!
-# Be CERTAIN to backup your project(s) before renaming.
-#
-# One simple rule:
-#
-# 1) The old project name cannot contain the new project name, so for instance,
-#    renaming "MyStuff" to "MyStuff2" will not work. If you really need to do
-#    this, rename the project to a temp name, then rename again.
-#
-# I have instructions for manually renaming an xcode project here:
-#
-# http://mohrt.blogspot.com/2008/12/renaming-xcode-project.html
-#
-#
-# Installation:
-#
-# Copy (this) file "renameXcodeProject.sh" to your file system, and invoke:
-#
-#   chmod 755 renameXcodeProject.sh
-#
-# to make it executable.
-#
-# usage:
-#
-#   renameXcodeProject.sh <OldProjectName> <NewProjectName>
-#
-# example:
-#
-#   ./renameXcodeProject.sh MyStuff MyNewStuff
-#
-################################################################################
+# Adatped from: https://rudifa.wordpress.com/2011/07/23/clonexcodeproject-sh/
  
 NEWNAME=$1
-#NEWNAME=$2
  
 # remove bad characters
 iOSSwiftStarterPack=`echo "${iOSSwiftStarterPack}" | sed -e "s/[^a-zA-Z0-9_ -]//g"`
