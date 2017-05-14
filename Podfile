@@ -6,6 +6,8 @@ target 'iOSSwiftStarterPack' do
   # Pods for starterpack
   pod 'RealmSwift'
   pod 'SwiftLint'
+  pod 'Whisper'
+  pod 'Material', '~> 2.0'
   pod 'Alamofire', '~> 4.4'
 
   target 'iOSSwiftStarterPackTests' do

@@ -8,31 +8,71 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Material-com.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Material-com.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-iOSSwiftStarterPack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>Pods-iOSSwiftStarterPackTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>Pods-iOSSwiftStarterPackUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>Realm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Whisper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -42,22 +82,42 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2835DEF60C947A61FCDEE71C5B285253</key>
+		<key>20649D87F78343B6854105D83B7C5DAE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>403063C3CAAA69B5B7DA2D544EEBAD81</key>
+		<key>39AA3FC7447AC6B6A131668CFF9C01CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7515A7CC955C16F6BBB5417D2538A450</key>
+		<key>3A5897FCD2621886E495618AB901B1EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D511562A8961C5B7A5DD87BAE2374F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9BFB77E4100E3C33DB0D51BBE8A8C369</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A758CA9A385F7245116E73D3357559AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD426718428DF66DFC9A7E0B3B57A153</key>
 		<dict>
 			<key>primary</key>
 			<true/>
