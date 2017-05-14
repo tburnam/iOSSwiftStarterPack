@@ -23,6 +23,7 @@ This starterpack is a blank Swift iOS project with [**SwiftLint**](https://githu
 
 
 ## Resources:
+- [Cookbook](https://iswift.org/cookbook)
 - [IBM Browser sandbox](https://swift.sandbox.bluemix.net/restricted?error=cookie#/repl)
 - [AwesomeSwift](https://github.com/matteocrippa/awesome-swift)
 - [AwesomeSwift 2](https://github.com/Wolg/awesome-swift)
