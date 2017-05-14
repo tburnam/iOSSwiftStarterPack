@@ -9,7 +9,7 @@ $ ./init
 This will prompt you for a name for the iOS project and automatically rename the XCode project files to the updated name. 
 <br>
 <br>
-To enable SwiftLint in XCode, see [this](https://github.com/realm/SwiftLint/blob/master/README.md). Essentially, you must add a new `Run Script Phase` with:
+To enable SwiftLint in XCode, see [this](https://github.com/realm/SwiftLint/blob/master/README.md). Essentially, you must [add](http://www.runscriptbuildphase.com/) a new `Run Script Phase` with:
 ```bash
 ${PODS_ROOT}/SwiftLint/swiftlint
 ```
