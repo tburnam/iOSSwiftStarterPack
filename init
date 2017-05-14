@@ -9,9 +9,10 @@ iOSSwiftStarterPack="iOSSwiftStarterPack"
 # Get new project name
 read -p 'Enter new project name (default is iOSStarterPack): ' NEWNAME
 
-# Check for default
+## Check for default
 if [ "$NEWNAME" = "" ]; then
 	NEWNAME="iOSStarterPack"
+fi
  
 # remove bad characters
 iOSSwiftStarterPack=`echo "${iOSSwiftStarterPack}" | sed -e "s/[^a-zA-Z0-9_ -]//g"`
@@ -154,7 +155,6 @@ if [ "$FINALNAME" = "" ]; then
 	
 	# Remove template
 	rm -rf ${iOSSwiftStarterPack}
-	rm init
 	exit
 else
 	echo
