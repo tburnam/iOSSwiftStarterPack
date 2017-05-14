@@ -151,6 +151,10 @@ if [ "$FINALNAME" = "" ]; then
 		rm -rf "${TMPPROJNAME}"
 	fi
 	echo finished.
+	
+	# Remove template
+	rm -rf ${iOSSwiftStarterPack}
+	rm init
 	exit
 else
 	echo
